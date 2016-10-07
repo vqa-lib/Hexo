@@ -7,7 +7,7 @@ title: 视频质量评价研究实验室
 subtitle:
 description:
 author: 视频质量评价研究实验室
-language: cn
+language: zh-Hans
 timezone:
 
 # URL
@@ -46,7 +46,11 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+		基本信息: info
+		学术动态: academic
 tag_map:
+		Welcome: welcome
+		学术会议: conference
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -71,3 +75,7 @@ deploy:
   type: git
   repository: https://github.com/vqa-lib/vqa-lib.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
