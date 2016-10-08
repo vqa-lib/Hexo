@@ -4,9 +4,139 @@
   
     
     <entry>
+      <title><![CDATA[分享一些做课题调查的方法]]></title>
+      <url>http://yoursite.com/2016/10/07/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%81%9A%E8%AF%BE%E9%A2%98%E8%B0%83%E6%9F%A5%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p><em>author: Hui Zhang</em><br>马上就要毕业了，把自己做课题调查的方法分享一下。</p>
+<p>拿到一个新的研究课题时，可以先去知网之类的地方搜索一些国内硕博士的毕业论文，通过他们的论文可以先对课题有一个初步的认知。但是再往后就建议选择在google scholar上搜索一些外文论文了，当然这里不是随便乱搜索，而是要找领域内的知名期刊、会议论文来看，那么如何知道什么样的期刊、会议是优秀的期刊、会议呢？<br><a id="more"></a><br>有两种途径：<br>1、中国计算机学会（CCF）推荐的期刊和会议目录，以我做的多媒体领域为例，点击这里就能看到CCF给出的计算机图形学与多媒体领域的推荐期刊和会议目录</p>
+<p>2、直接利用Google scholar的上的统计指标选择排名靠前的期刊和会议目录，有一个优点在于时效性更好，还是以多媒体领域为例，点击<a href="https://scholar.google.com/citations?view_op=top_venues&amp;hl=zh-CN&amp;vq=eng_multimedia" target="_blank" rel="external">这里</a>就能看到多媒体领域排名前二十的期刊和会议，如下<br><img src="https://lh4.googleusercontent.com/dmQwHAjWWnMgHVB4AkE7pr7A52aVS-_5RClu-Wka7ReMGLzeXOLKhfOI3kPRhK9H8_rYrcO534CkI47aa_e3KUmQubce9WnUEsONMLtNn2bpU972DYgMahwnVsr4XwEV-df3MELP" alt=""></p>
+<p>但是还有一个问题，搜索国内的硕博士论文也好，搜索外文的优质期刊、会议论文也好，总是难以梳理清楚整个研究课题的发展脉络，比如最早是谁研究了这个课题？有哪些人在这个课题做的很深、很受认可？目前都有哪几个研究方向？有哪几篇论文称得上是必读论文？这个时候就需要做领域调查中的引文分析步骤了。<br>这里介绍基于SCI数据库和histcite软件做引文分析的步骤。<br>所谓SCI数据库其实就是web of science数据库（webofknowledge.com）了，访问需要有账号和密码，一般都是高校图书馆有订购，如果学校没有订购数据库，就需要自己去淘宝上买一个账号了，很便宜，十块就能搞定，直接搜索“web of science”即可<br>登录了数据库（网站）之后就是检索界面，这一点和知网什么的很相似，为了搜索结果更精确，需要进行“精炼”，其实就是筛选数据库、发表年份、文献类型等等。精炼之后可以将全部的搜索结果导出以供下一步分析。在网页下方有导出选项，选项如下<br><img src="https://lh5.googleusercontent.com/RM0ESUwDDBHiacgELZcNyf2eFr1WP2PhZkuwBqfLmzOFu-4uCdeqy_SVBwVIAaw8JN2XEM6Dy413mKNVY_UEX3YbOeWMxGH0AsS2dBIbTv-D91jz6-osBM8TD4Gsc6OkAiOMLKuk" alt=""></p>
+<p>这里以QoE这个课题为例，看看导出的是什么东西。打开导出的纯文本，内容如下</p>
+<pre><code>FN Thomson Reuters Web of Knowledge™
+VR 1.0
+PT JAU Shao, F
+Lin, WS
+Wang, SS
+Jiang, GY
+Yu, M
+AF Shao, Feng
+Lin, Weisi
+Wang, Shanshan
+Jiang, Gangyi
+Yu, Mei
+TI Blind Image Quality Assessment for Stereoscopic Images Using Binocular
+Guided Quality Lookup and Visual Codebook
+SO IEEE TRANSACTIONS ON BROADCASTING
+LA English
+DT Article
+DE Phase-tuned quality lookup (PTQL); phase-tuned visual codebook (PTVC);
+binocular energy response; blind image quality assessment (BIQA); 3-D
+visual experience (3-D-QoE)
+ID VIDEO; ENERGY; INDEX; INFORMATION; PERCEPTION; SIMILARITY; MODELS;
+DOMAIN
+AB The field of assessing three-dimensional (3-D) visual experience is challenging. In this paper, we propose a new blind image quality assessment for stereoscopic images by using binocular guided quality lookup and visual codebook. To be more specific, in the training stage, we construct phase-tuned quality lookup (PTQL) and phase-tuned visual codebook (PTVC) from the binocular energy responses based on stimuli from different spatial frequencies, orientations, and phase shifts. In the test stage, blind quality pooling can be easily achieved by searching the PTQL and PTVC, and the quality score is obtained by averaging the largest values of all patch&apos;s quality. Experimental results on three 3-D image quality assessment databases demonstrate that in comparison with the most related existing methods, the devised algorithm achieves high consistency alignment with subjective assessment and low-complexity pooling.
+C1 [Shao, Feng; Wang, Shanshan; Jiang, Gangyi; Yu, Mei] Ningbo Univ, Fac Informat Sci &amp; Engn, Ningbo 315211, Zhejiang, Peoples R China.
+   [Lin, Weisi] Nanyang Technol Univ, Sch Comp Engn, Ctr Multimedia &amp; Network Technol, Singapore 639798, Singapore.
+RP Shao, F (reprint author), Ningbo Univ, Fac Informat Sci &amp; Engn, Ningbo 315211, Zhejiang, Peoples R China.
+EM shaofeng@nbu.edu.cn
+FU Natural Science Foundation of China [61271021, 61071120, U1301257]; K.
+   C. Wong Magna Fund of Ningbo University
+FX This work was supported in part by the Natural Science Foundation of
+   China under Grant 61271021, Grant 61071120, and Grant U1301257, and in
+   part by the K. C. Wong Magna Fund of Ningbo University.
+CR Banitalebi-Dehkordi A., 2012, P INT C 3D IM LIEG B, P1
+   Benoit A, 2008, EURASIP J IMAGE VIDE, DOI 10.1155/2008/659024
+   Bensalma R, 2013, MULTIDIM SYST SIGN P, V24, P281, DOI 10.1007/s11045-012-0178-3
+   Blake R, 2011, VISION RES, V51, P754, DOI 10.1016/j.visres.2010.10.009
+   Boev A, 2006, 7TH IEEE SOUTHWEST SYMPOSIUM ON IMAGE ANALYSIS AND INTERPRETATION, P218
+   Chen MJ, 2013, IEEE T IMAGE PROCESS, V22, P3379, DOI 10.1109/TIP.2013.2267393
+   Chen MJ, 2013, SIGNAL PROCESS-IMAGE, V28, P1143, DOI 10.1016/j.image.2013.05.006
+   De Silva V, 2013, IEEE T IMAGE PROCESS, V22, P3392, DOI 10.1109/TIP.2013.2268422
+   Ferzli R, 2009, IEEE T IMAGE PROCESS, V18, P717, DOI 10.1109/TIP.2008.2011760
+   Fleet DJ, 1996, VISION RES, V36, P1839, DOI 10.1016/0042-6989(95)00313-4
+   Gottschalk PG, 2005, ANAL BIOCHEM, V343, P54, DOI 10.1016/j.ab.2005.04.035
+   Gu K., 2012, J ELECT COMP ENG, V2012
+   Gu ZT, 2013, IEEE IMAGE PROC, P186
+   Ha K., 2011, P IEEE INT C IM PROC, P2525
+   Hachicha W, 2013, IEEE IMAGE PROC, P113, DOI 10.1109/ICIP.2013.6738024
+   He LH, 2012, PROC CVPR IEEE, P1146
+   Hewage CTER, 2008, ELECTRON LETT, V44, P963, DOI 10.1049/el:20081562
+   Howard I. P., 1995, BINOCULAR FUSION RIV
+   Hwang JJ, 2011, KSII T INTERNET INF, V5, P1613, DOI 10.3837/tiis.2011.09.007
+   Kim D, 2011, IEEE T CIRC SYST VID, V21, P231, DOI 10.1109/TCSVT.2011.2106275
+   Kolmogorov V., 2001, P INT C COMP VIS, V2, P508, DOI 10.1109/ICCV.2001.937668
+   Lambooij M, 2011, IEEE T BROADCAST, V57, P432, DOI 10.1109/TBC.2011.2134590
+   Lambooij M, 2011, DISPLAYS, V32, P209, DOI 10.1016/j.displa.2011.05.012
+   Lin YH, 2014, IEEE T IMAGE PROCESS, V23, P1527, DOI 10.1109/TIP.2014.2302686
+   Malekmohamadi H, 2012, IEEE INT CONF MULTI, P581, DOI 10.1109/ICMEW.2012.107
+   Marziliano P., 2002, P INT C IM PROC ROCH, V3, P57
+   Mittal A, 2012, IEEE T IMAGE PROCESS, V21, P4695, DOI 10.1109/TIP.2012.2214050
+   Mittal A, 2011, 2011 IEEE DIGITAL SIGNAL PROCESSING WORKSHOP AND IEEE SIGNAL PROCESSING EDUCATION WORKSHOP (DSP/SPE), P338, DOI 10.1109/DSP-SPE.2011.5739236
+   Mittal A, 2012, IEEE SIGNAL PROC LET, V19, P75, DOI 10.1109/LSP.2011.2179293
+   Moorthy A. K., 2013, P SOC PHOTO-OPT INS, V8651
+   Moorthy AK, 2011, IEEE T IMAGE PROCESS, V20, P3350, DOI 10.1109/TIP.2011.2147325
+   Narvekar ND, 2011, IEEE T IMAGE PROCESS, V20, P2678, DOI 10.1109/TIP.2011.2131660
+   Nunes JC, 2003, LECT NOTES COMPUT SC, V2749, P171
+   Pluim JPW, 2000, IEEE T MED IMAGING, V19, P809, DOI 10.1109/42.876307
+   Qi F, 2013, IEEE IMAGE PROC, P34
+   Quan H.-T., 2010, P IEEE INT C IM PROC, P4025
+   Ryu S, 2012, IEEE IMAGE PROC, P609
+   Ryu S, 2014, IEEE T CIRC SYST VID, V24, P591, DOI 10.1109/TCSVT.2013.2279971
+   Saad MA, 2012, IEEE T IMAGE PROCESS, V21, P3339, DOI 10.1109/TIP.2012.2191563
+   Sazzad Z. M. P., 2012, ADV MULTIMEDIA, V2012
+   Seo J, 2012, CIRC SYST SIGNAL PR, V31, P1089, DOI 10.1007/s00034-011-9369-7
+   Shao F., 2012, P S PHOT OPT SHANGH, P1
+   Shao F, 2013, IEEE T IMAGE PROCESS, V22, P1940, DOI 10.1109/TIP.2013.2240003
+   Smolic A, 2011, P IEEE, V99, P607, DOI 10.1109/JPROC.2010.2098350
+   Sohn H, 2013, IEEE T BROADCAST, V59, P28, DOI 10.1109/TBC.2013.2238413
+   Sturzl W, 2002, LECT NOTES COMPUT SC, V2415, P1255
+   Tam WJ, 2011, IEEE T BROADCAST, V57, P335, DOI 10.1109/TBC.2011.2125070
+   Vlad R, 2013, PROC SPIE, V8653, DOI 10.1117/12.2004132
+   Wang XQ, 2011, PHIL MAG LETT, V91, P375, DOI 10.1109/ICBMEI.2011.5918026
+   Wang Z, 2002, IEEE SIGNAL PROC LET, V9, P81
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Xue WF, 2013, PROC CVPR IEEE, P995, DOI 10.1109/CVPR.2013.133
+   Xue WF, 2014, IEEE T IMAGE PROCESS, V23, P684, DOI 10.1109/TIP.2013.2293423
+   Yang JC, 2010, INT J IMAG SYST TECH, V20, P301, DOI 10.1002/ima.20246
+   Ye P, 2012, IEEE T IMAGE PROCESS, V21, P3129, DOI 10.1109/TIP.2012.2190086
+   You J., 2010, P INT WORKSH VID PRO, P61
+   Zhang L, 2011, IEEE T IMAGE PROCESS, V20, P2378, DOI 10.1109/TIP.2011.2109730
+NR 57
+TC 0
+Z9 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0018-9316
+EI 1557-9611
+J9 IEEE T BROADCAST
+JI IEEE Trans. Broadcast.
+PD JUN
+PY 2015
+VL 61
+IS 2
+BP 154
+EP 165
+DI 10.1109/TBC.2015.2402491
+PG 12
+WC Engineering, Electrical &amp; Electronic; Telecommunications
+SC Engineering; Telecommunications
+GA CK1SV
+UT WOS:000355988500003
+ER
+……..
+</code></pre><p>看似很复杂，其实就是每一篇论文的信息，包含作者、摘要、发表地、参考文献等全部信息。<br>现在就轮到HistCite软件上场了，它将基于这个导出文件给出引文分析结果。所谓HistCite其实就是history of cite，即引文历史，或者叫引文图谱分析软件。下载安装非常简单，打开后是一个IE浏览器的界面<br><img src="https://lh6.googleusercontent.com/vQE7ooDbQBLizHVIMBIHy4q2jaQszZFL0HIc7tOlfjjcVGkPLfZIyX8ZbvyL0LC5qHFuvOSthRCbq5nGJioLg0hgapQS6-imSWbVe1QNVxlge0QSsyyWuFK68MPx-ML_x1pkh2ZT" alt=""><br>点击File-Add File就可以将刚才导出的文件导入HistCite，这时就会自动生成下面的列表<br><img src="https://lh3.googleusercontent.com/Qk31xoRSRocBrk-Af8xSaluSLx1RQC5XBDS_lJHkLSEXYezJJCRNtIAafn9cQOMBfFTk_-bzqSdzDPZdffoEubSX_GKzn6ZKDgaN0aR51jhNzRf-Uv5CUPdjEBMgMJKUa7kwRdRO" alt=""></p>
+<p>这次就直观的多了。在窗口的右侧，有LCS、GCS、LCR、CR四个参数。下面分别解释一下。<br>GCS是global citation score，即引用次数，也就是你在web of science网站上看到的引用次数。如果你点击gcs，软件会按照GCS进行排序，此时的结果与你在wos网站按被引频次排序的结果是一样的。<br>CR是cited references，即文章引用的参考文献数量。如果某篇文献引用了50篇参考文献，则CR为50。这个数据通常能帮我们初步判断一下某篇文献是一般论文还是综述。<br>LCS和LCR是histcite里比较重要的两个参数。LCS是local citation score的简写，即本地引用次数。与gcs相对应，gcs是总被引次数。lcs是某篇文章在当前数据库中被应用的次数。所以LCS一定是小于或等于GCS的。<br>一篇文章GCS很高，说明被全球科学家关注较多。但是如果一篇GCS很高，而LCS很小，说明这种关注主要来自与你不是同一领域的科学家。此时，这篇文献对你的参考意义可能不大。举个离子，2003年发表在nature上的两篇文章P1 （GCS:580,LCS:12) 和 P2(GCS:36,LCS：24)。第一篇文章gcs很高，lcs很低，说明关注这篇文章的绝大部分作者与你关注的方向不同。而第二篇文章经gcs较低，但LCS比第一批要高，即很多引用p2的文章都在当前数据库，也即与你的研究方向相关。所以，p1 p2相比，p2应该更贴近你的研究方向，参考价值更大。<br>LCR与CR对应是local cited references，是指某篇文献引用的所有文献中，有多少篇文献在当前数据库中。如果最近有两篇文章，p1 p2,都引用了30篇参考文献，其中p1引用的30篇文献中有20篇在当前数据库，p2只有2篇文献在当前数据库。此时，p1相对更有参考价值，因为它引用了大量和你的研究相关的文献。<br>根据LCS可以快速定位一个领域的经典文献， LCR可以快速找出最新的文献中哪些是和自己研究方向最相关的文章。<br>点击右侧参数的数值，还可以看到相应的引用文献。<br>如果到这里就结束了岂不是很无聊，下面介绍HistCite的大招功能：将引用分析可视化<br>点击Tools-Graph-Make Graph，将会生成下面的图片</p>
+<p><img src="https://lh4.googleusercontent.com/7PgLpRDyw8UbzDJzBziJQDtMVNTUGWdaZIdqoquyYgk_6O0BH9-NSUms-25bEn1IBmhi_cEv2vmWT8BrcQ32Oto2Ct0J2MKLVKlHLGTyHJuvsAVhf6Ts6jtE5qvVUpqm9iDWR2ZU" alt=""></p>
+<p>这是基于我的QoE研究课题的可视化分析结果。每一个圆圈代表一篇文章，圆圈里的数字代表文章编号，圆圈越大代表引用数越高，而圆圈之间的连线则代表引用关系，图片左边还有时间信息。读这张图我就可以得出如下信息了：关于QoE的研究始于2006年；研究方向比较集中，但是也有很多创新的方向一直在被提出；编号271、267、88等几篇论文是必读论文……因为我这里直接以QoE所谓搜索关键词，所以其实搜索结果太笼统，不是很好，但依然能看到HistCite做引文分析的强大功能。</p>
+<p>最后送上几个参考链接：<br><a href="http://blog.sciencenet.cn/blog-304685-383399.html" target="_blank" rel="external">引文分析软件histcite简介</a><br><a href="http://blog.sina.com.cn/s/blog_6163bdeb0102e0jc.html" target="_blank" rel="external">HistCite软件导入文献教程</a><br><a href="http://study.163.com/course/introduction.htm?courseId=348001#/courseDetail" target="_blank" rel="external">中科大文献管理与信息分析在线课程</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[ICME2016 学术动态与参会经验分享]]></title>
       <url>http://yoursite.com/2016/10/07/ICME2016-%E5%AD%A6%E6%9C%AF%E5%8A%A8%E6%80%81%E4%B8%8E%E5%8F%82%E4%BC%9A%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</url>
-      <content type="html"><![CDATA[<h1 id="会议简介"><a href="#会议简介" class="headerlink" title="会议简介"></a>会议简介</h1><p>ICME，全称International Conference on Multimedia and Expo，即国际多媒体与博览会议，又IEEE 计算机学会、电路与系统学会、通信学会、信号处理学会合办，始于2000年，不仅是学术界交流多媒体领域最近研究成果的旗舰论坛，也是工业界展示最新产品或系统的平台。2016年ICME会议于7月11日至7月15日在美国西雅图召开。<br><a id="more"></a><br>在本次会议中，我们重点听取了以下内容：</p>
+      <content type="html"><![CDATA[<p><em>author: Hui Zhang</em></p>
+<h1 id="会议简介"><a href="#会议简介" class="headerlink" title="会议简介"></a>会议简介</h1><p>ICME，全称International Conference on Multimedia and Expo，即国际多媒体与博览会议，又IEEE 计算机学会、电路与系统学会、通信学会、信号处理学会合办，始于2000年，不仅是学术界交流多媒体领域最近研究成果的旗舰论坛，也是工业界展示最新产品或系统的平台。2016年ICME会议于7月11日至7月15日在美国西雅图召开。<br><a id="more"></a><br>在本次会议中，我们重点听取了以下内容：</p>
 <h2 id="1、A-Quest-for-Visual-Intelligence-in-Computers-Fei-Fei-Li-Associate-Professor-Stanford-University"><a href="#1、A-Quest-for-Visual-Intelligence-in-Computers-Fei-Fei-Li-Associate-Professor-Stanford-University" class="headerlink" title="1、A Quest for Visual Intelligence in Computers- Fei-Fei Li, Associate Professor, Stanford University"></a>1、A Quest for Visual Intelligence in Computers- Fei-Fei Li, Associate Professor, Stanford University</h2><p>Fei-Fei Li是计算机视觉领域的大牛，由她主导的imagenet图像库是机器视觉领域最大最全的图像库，基于此举办的挑战赛更是吸引全世界的学者参与进来。在本次讲座中，她从视觉引发的物种大爆发讲起，梳理了人们在追寻让计算机更智能地理解图片和视频的道路上所做的努力，也介绍了她所在的实验室在这一领域的最新成果，她也提到很多成果都是以大数据和神经网络（深度学习）作为基础的。</p>
 <p>Fei-Fei Li首先指出，计算机视觉的目标在于Total Scene Understanding，在这一过程中势必涉及到对图片或视频像素的处理，但是简单的measuring pixels不等于understanding scenes，这里面涉及到动物的视觉感知的原理，很多生物实验都给出了证明，比如著名的the kitten experiment，实验中的小猫只会对以前见过的图像做出生理上的反应，这些实验给我们的第一个有关计算机视觉的信息是<br>Message1 learning is the path to visual intelligence<br>这也是如今计算机视觉和机器学习紧密联系在一起的根本原因之一。</p>
 <p>在大的目标下，计算机视觉领域有很多子目标，object recognition就是其中之一，随后Fei-Fei Li就目标识别领域数十年来的发展轨迹做了介绍，包括最新的进展。</p>
