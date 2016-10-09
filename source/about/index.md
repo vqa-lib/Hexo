@@ -15,6 +15,7 @@ comment: false
 许江波| | | | | 
 杨爽|||||
 王彩虹|||||
+*雷霄骅*|博士|2011||leixiaohua1020|
 马小雨|博士|2013|||
 张晖|硕士|2014|zhanghuicuc@gmail.com|zhanghuicuc|
 尤安通|硕士|2014|||
@@ -32,3 +33,7 @@ comment: false
 ----|----|--------
 2016|会议|Zhang, Hui, and Xiuhua Jiang. "A QOE-driven approach to rate adaptation for dynamic adaptive streaming over http." Multimedia & Expo Workshops (ICMEW), 2016 IEEE International Conference on. IEEE, 2016.
 2015|期刊|Zhang, Hui, Xiuhua Jiang, and Xiaohua Lei. "A Method for Evaluating QoE of Live Streaming Services." International Journal of Computer and Electrical Engineering 7.5 (2015): 296.
+
+友情链接
+[雷霄骅(leixiaohua1020)的专栏](http://blog.csdn.net/leixiaohua1020)
+[张晖的专栏](http://blog.csdn.net/nonmarking)
